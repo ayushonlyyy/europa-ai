@@ -10,7 +10,7 @@ const TAVILY_URL = 'https://api.tavily.com/search';
 
 // UI name -> real Groq model. Change IDs here only (Groq's catalog changes often).
 const MODELS = {
-  io:       { id: 'llama-3.1-8b-instant', name: 'Io',       maxTokens: 1024, reasoning: false },
+    io:       { id: 'qwen/qwen3.8-27b', name: 'Io',       maxTokens: 1024, reasoning: false },,       maxTokens: 1024, reasoning: false },
   callisto: { id: 'openai/gpt-oss-20b',   name: 'Callisto', maxTokens: 1600, reasoning: true },
   ganymede: { id: 'openai/gpt-oss-120b',  name: 'Ganymede', maxTokens: 1600, reasoning: true },
 };
